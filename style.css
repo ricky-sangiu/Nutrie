@@ -1,5 +1,28 @@
 /* Lesson 1 starter CSS file.
    Add styles here in later lessons. */
+
+body {
+   margin: 0;
+}
+
 header {
    background-color: aqua;
+   border-bottom: 1px solid black;
+}
+
+header p {
+   margin: 0;
+}
+
+nav {
+   border-bottom: 1px solid #dbe4f4;
+}
+
+a {
+   text-decoration: none;
+}
+
+header,
+nav {
+   padding: 10px 0;
 }
