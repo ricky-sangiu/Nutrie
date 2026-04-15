@@ -14,9 +14,7 @@ header {
    text-align: center;
    padding: 25px;
 }
-header {
-   
-}
+
 header p {
    margin: 0;
    color: white;
@@ -43,7 +41,7 @@ nav {
    padding: 10px 0;
 }
 
-#about {
+.card {
    font-family: 'fira-sans-thin', Tahoma, Geneva, Verdana, sans-serif;
 }
 
