@@ -27,19 +27,13 @@ header h1 {
 
 nav {
    border-bottom: 1px solid #a7c7fd;
-   text-align: center;
+   padding-left: 270px;
    background-color: white;
 
 }
 
-nav a {}
-
 a {
    text-decoration: none;
-}
-
-nav {
-   padding: 10px 0;
 }
 
 .card {
