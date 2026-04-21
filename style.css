@@ -1,6 +1,3 @@
-/* Lesson 1 starter CSS file.
-   Add styles here in later lessons. */
-
 body {
    margin: 0;
    background-color: rgb(229, 243, 255);
@@ -26,8 +23,10 @@ header h1 {
 nav {
 
    border-bottom: 1px solid #a7c7fd;
-   text-align: center;
    background-color: white;
+   padding: 10px 0;
+   text-align: center;
+   word-spacing: 15px;
 
 }
 
@@ -37,9 +36,7 @@ a {
    text-decoration: none;
 }
 
-nav {
-   padding: 10px 0;
-}
+
 
 .card {
    font-family: 'fira-sans-thin', Tahoma, Geneva, Verdana, sans-serif;
