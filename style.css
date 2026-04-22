@@ -35,8 +35,12 @@ nav {
 
 
 a {
-   color: rgb(102, 91, 255);
+   color: rgb(39, 72, 255);
    text-decoration: none;
+}
+
+a:hover {
+   color: rgb(99, 193, 255);
 }
 
 
