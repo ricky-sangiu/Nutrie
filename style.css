@@ -99,9 +99,10 @@ h2 {
    margin: 5px;
 }
 
-#Video article {
+#Videos article iframe {
    width: 100%;
    box-sizing: border-box;
-   height: 5;
+   aspect-ratio: 16 / 9;
+   border-radius: 10px;
 }
 
