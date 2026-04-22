@@ -38,10 +38,13 @@ nav {
 a {
    color: rgb(39, 72, 255);
    text-decoration: none;
+   display: inline-block;
+   transition: transform 0.1s ease-in-out;
 }
 
 a:hover {
-   color: rgb(99, 193, 255);
+   color: rgb(27, 51, 186);
+   transform: scale(1.1);
 }
 
 
