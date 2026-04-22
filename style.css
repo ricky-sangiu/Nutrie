@@ -25,9 +25,12 @@ header h1 {
    color: white;
 }
 
+div {
+   margin: 10px auto;
+}
+
 nav {
    border-bottom: 1px solid #a7c7fd;
-   padding-left: 270px;
    background-color: white;
 
 }
@@ -41,12 +44,9 @@ a {
 }
 
 
-
 .card {
    border-radius: 10px;
    max-width: 60%;
-   padding: 10px;
-   margin: 10px auto;
    background-color: white;
    box-shadow:
       5px 5px 5px rgba(0, 0, 0, 0.03),
