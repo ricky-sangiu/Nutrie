@@ -68,13 +68,13 @@ h2 {
    font-family: 'fira-sans-thin', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-#Highlights{
+#Highlights {
    display: grid;
    grid-template-columns: 1fr 1fr;
    gap: 15px;
 }
 
-#Highlights h2{
+#Highlights h2 {
    grid-column: 1 / -1;
    margin: 5px;
 }
@@ -90,14 +90,29 @@ h2 {
 
 }
 
+#Photo {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 15px;
+}
+
+#Photo h2 {
+   grid-column: 1 / -1;
+}
+
+#Photo article img {
+   width: 100%;
+   border-radius: 10px;
+}
+
 #Videos {
    display: grid;
    grid-template-columns: 1fr 1fr;
    gap: 15px;
 }
 
-#Videos h2, 
-#Videos p{
+#Videos h2,
+#Videos p {
    grid-column: 1 / -1;
    margin: 5px;
 }
