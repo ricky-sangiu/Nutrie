@@ -12,9 +12,10 @@ header, nav {
 }
 
 header {
+   background: linear-gradient(45deg, #f3722c, #cb5f24);
    background-color: #f3722c;
    text-align: center;
-   padding: 25px;
+   padding: 35px;
 }
 
 
@@ -25,6 +26,7 @@ header p {
 
 header h1 {
    color: white;
+   font-size: 50px;
 }
 
 nav {
@@ -36,6 +38,9 @@ nav {
       0 3px 3px rgba(0, 0, 0, 0.03);
 }
 
+h2 {
+   font-size: 30px;
+}
 
 a {
    color: #b66100;
@@ -138,13 +143,13 @@ h2 {
    box-sizing: border-box;
    aspect-ratio: 16 / 9;
    object-fit: cover;
-   object-position: centerbottom;
+   object-position: center;
 }
 
 #Photos p,
 #Core p {
    margin: 5px;
-   font-size: 14px;
+   font-size: 15px;
 }
 
 #Videos {
